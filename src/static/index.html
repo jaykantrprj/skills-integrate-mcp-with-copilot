@@ -15,6 +15,22 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div id="activity-filters" style="margin-bottom: 20px;">
+          <label for="filter-category">Category:</label>
+          <select id="filter-category">
+            <option value="">All</option>
+            <option value="Academic">Academic</option>
+            <option value="Sports">Sports</option>
+            <option value="Arts">Arts</option>
+          </select>
+          <label for="filter-sort" style="margin-left: 15px;">Sort by:</label>
+          <select id="filter-sort">
+            <option value="name">Name (A-Z)</option>
+            <option value="spots">Spots Left</option>
+          </select>
+          <label for="filter-search" style="margin-left: 15px;">Search:</label>
+          <input type="text" id="filter-search" placeholder="Search activities..." />
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>

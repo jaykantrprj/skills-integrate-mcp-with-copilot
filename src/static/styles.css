@@ -1,3 +1,21 @@
+/* Filter controls */
+#activity-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#activity-filters label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+#activity-filters select,
+#activity-filters input[type="text"] {
+  padding: 4px 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
 * {
   box-sizing: border-box;
   margin: 0;
